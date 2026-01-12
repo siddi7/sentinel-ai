@@ -1,21 +1,5 @@
-Below is a **polished, enterprise-grade `README.md`** that is visually strong, technically credible, and aligned with how serious security and AI products present themselves on GitHub.
-This version tightens language, improves hierarchy, adds credibility signals, and avoids anything that looks “hackathon-only” or experimental.
-
-You can copy this **verbatim**.
-
----
-
-```markdown
 # 🛡️ Sentinel.ai  
 ## Real-Time Acoustic Fraud Detection & Forensic Intelligence Platform
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Backend](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python%203.11-blue?logo=python)](https://www.python.org/)
-[![Frontend](https://img.shields.io/badge/Frontend-React%2018%20%7C%20Vite-61DAFB?logo=react)](https://reactjs.org/)
-[![AI Inference](https://img.shields.io/badge/Inference-Groq%20Cloud-orange?logo=lightning)](https://groq.com/)
-[![Status](https://img.shields.io/badge/Status-Production--Ready-success)](#)
-
----
 
 ## 📌 Overview
 
@@ -47,7 +31,6 @@ The platform is built with **enterprise scalability, low-latency inference, and 
 - Combines speech signals with LLM-based semantic reasoning
 - Visual waveform synchronized with transcript segments
 
----
 
 ## 🧱 High-Level Architecture
 
@@ -57,8 +40,8 @@ The platform is built with **enterprise scalability, low-latency inference, and 
 │ Audio Input │ ──▶ │  FastAPI API │ ──▶ │ Groq Inference │
 │ (Live/File) │     │ (Streaming)  │     │  (Whisper +   │
 └─────────────┘     └──────────────┘     │   Llama 3.3)  │
-│                                       │
-▼                                       ▼
+        |                                       │
+        ▼                                       ▼
 ┌─────────────┐                         ┌────────────────┐
 │ Waveform UI │ ◀────────────────────── │ Risk Engine & │
 │ (React)     │                         │ Forensics     │
@@ -102,7 +85,7 @@ Weighted multi-factor scoring based on:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentinel-ai.git
+git clone https://github.com/siddi7/sentinel-ai.git
 cd sentinel-ai
 ````
 
@@ -207,36 +190,4 @@ npm run dev
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
-See the `LICENSE` file for full details.
-
----
-
-## 👨‍💻 Author
-
-**Sentinel.ai**
-Built with a focus on **real-world security impact, explainable AI, and production-grade architecture**.
-
-> *AI should not only detect threats — it should explain them.*
-
-```
-
----
-
-### Why this README works at an **industry level**
-- Clear problem → solution narrative  
-- Architecture & security-first framing  
-- Avoids buzzword overload  
-- Reads like a **real product**, not a demo  
-- Strong alignment with AI + security recruiters, judges, and reviewers  
-
-If you want, next I can:
-- Design a **matching system architecture diagram**
-- Rewrite this for a **startup pitch deck**
-- Optimize it for **GitHub stars & discoverability**
-- Add **benchmarking and evaluation sections**
-
-Tell me how far you want to push this.
-```
